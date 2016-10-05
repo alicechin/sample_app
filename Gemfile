@@ -1,14 +1,14 @@
 source 'https://rubygems.org'
 
-
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.0'
+#for protected password
+gem 'bcrypt',         '3.1.11'
 #add Bootstrap
 gem 'bootstrap-sass', '3.3.6'
 group :development, :test do
   gem 'sqlite3'
 end
-
 group :production do
   gem 'pg'
 end
